@@ -1,0 +1,131 @@
+.footer {
+  position: relative;
+  background: var(--bg-navy);
+  padding: 70px 0 30px;
+  color: #eef1fb;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-logo {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-brand p {
+  margin-top: 14px;
+  color: rgba(238, 241, 251, 0.65);
+  max-width: 320px;
+  font-size: 0.92rem;
+}
+
+.footer-nav h4,
+.footer-contact h4 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(238, 241, 251, 0.75);
+  font-size: 0.92rem;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.25);
+  transition: color var(--transition-fast);
+}
+
+.footer-nav a:hover {
+  color: var(--accent-orange);
+}
+
+.footer-link-arrow {
+  width: 18px;
+  height: 18px;
+  padding: 4px;
+  border-radius: 50%;
+  background: var(--accent-orange);
+  color: var(--bg-navy);
+  flex-shrink: 0;
+}
+
+.footer-contact p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgba(238, 241, 251, 0.8);
+  font-size: 0.92rem;
+  margin-bottom: 16px;
+}
+
+.footer-contact p svg {
+  color: var(--accent-orange);
+  flex-shrink: 0;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.footer-social-icons a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  color: var(--bg-navy);
+  transition: all var(--transition-fast);
+}
+
+.footer-social-icons a:hover {
+  background: var(--accent-orange);
+  transform: translateY(-4px);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 26px;
+}
+
+.footer-bottom p {
+  color: rgba(238, 241, 251, 0.75);
+  font-size: 0.9rem;
+}
+
+.footer-heart {
+  color: #ef4444;
+}
+
+.footer-name {
+  color: var(--accent-orange);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
