@@ -1,5 +1,4 @@
-// Central place for all portfolio content.
-// Edit the values below to personalize the site — no need to touch components.
+
 import heroPhoto from '../assets/images/sagar-tomar-photo.jpeg';
 import universityPhoto from '../assets/images/university-garhwal.jpg';
 import institutePhoto from '../assets/images/cetpa-institute.jpg';

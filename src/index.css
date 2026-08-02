@@ -1,4 +1,4 @@
-/* ===================== Reset ===================== */
+
 *,
 *::before,
 *::after {
@@ -38,7 +38,6 @@ textarea {
   background: none;
 }
 
-/* ===================== Theme Variables ===================== */
 :root {
   --bg-primary: #ffffff;
   --bg-secondary: #f6f7fb;
@@ -89,7 +88,6 @@ textarea {
   color-scheme: light;
 }
 
-/* ===================== Base ===================== */
 body {
   font-family: var(--font-body);
   background: var(--bg-primary);
@@ -147,7 +145,6 @@ h6 {
   border: 2px solid var(--bg-primary);
 }
 
-/* ===================== Layout Helpers ===================== */
 .container {
   width: 100%;
   max-width: var(--container-width);
@@ -204,7 +201,6 @@ h6 {
   align-items: center;
 }
 
-/* ===================== Glass / Card Utilities ===================== */
 .glass-card {
   position: relative;
   background: var(--glass-bg);
@@ -241,7 +237,6 @@ h6 {
   color: transparent;
 }
 
-/* ===================== Buttons ===================== */
 .btn {
   position: relative;
   display: inline-flex;
@@ -292,7 +287,6 @@ h6 {
   font-size: 0.85rem;
 }
 
-/* Ripple */
 .ripple {
   position: absolute;
   border-radius: 50%;
@@ -309,7 +303,6 @@ h6 {
   }
 }
 
-/* ===================== Badges ===================== */
 .badge {
   display: inline-flex;
   align-items: center;
@@ -322,7 +315,6 @@ h6 {
   color: var(--accent-indigo);
 }
 
-/* ===================== Misc ===================== */
 .glow-blob {
   position: absolute;
   border-radius: 50%;
